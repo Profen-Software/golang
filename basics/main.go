@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"main/conditions"
 	"main/interfaces"
+	"main/structs"
 )
 
 func main() {
@@ -12,4 +13,6 @@ func main() {
 	conditions.PrintConditions()
 
 	interfaces.PrintInterface()
+
+	structs.PrintStructs()
 }
